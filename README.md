@@ -1,15 +1,10 @@
-# Switch-statement
-
+# Switch-statement #
+```C++
 #include <iostream>
-
 using namespace std;
-
-
 string dayoftheweek(int daynumber)
 {
     string dayname;
-
-
     switch(daynumber)
     {
         case 0 : dayname= "Sunday";
@@ -40,9 +35,6 @@ string dayoftheweek(int daynumber)
     return dayname;
 }
 
-
-
-
 int main()
 {
     cout<<"Enter day number : ";
@@ -51,3 +43,4 @@ int main()
     cout << dayoftheweek(m);
     return 0;
 }
+```
